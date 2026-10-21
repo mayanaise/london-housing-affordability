@@ -1,4 +1,4 @@
-# Buying in London: Housing Affordability and Borough Trends, 2015–2025
+# Buying in London: Housing Affordability and Borough Trends, From 2015–2025
 
 An analysis of how house prices and workplace earnings relate to housing affordability across London's 32 boroughs and the City of London.
 
