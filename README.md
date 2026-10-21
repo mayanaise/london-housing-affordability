@@ -70,22 +70,7 @@ Each chart addresses a question and is accompanied by an interpretation. The not
 | `aff1ratioofhousepricetoworkplacebasedearnings.xlsx` | Original ONS workbook |
 | `requirements.txt` | Python packages needed to run the notebook |
 
-## Run the analysis
 
-1. Download or clone this repository.
-2. Use a Python 3 virtual environment and install the dependencies:
-
-   ```bash
-   python -m pip install -r requirements.txt
-   ```
-
-3. Open `london-housing-affordability.ipynb` in PyCharm with Jupyter support, or launch JupyterLab:
-
-   ```bash
-   python -m jupyterlab
-   ```
-
-4. Select the environment's Python kernel, restart it and run all cells in order. Keep the Excel workbook in the notebook's folder.
 
 ## Interpretation and limitations
 
@@ -95,8 +80,10 @@ Area medians hide variation between neighbourhoods and property types. Changes i
 
 The findings describe published estimates and do not establish that office construction, regeneration or transport changes caused affordability changes. Investment assessment would require further evidence, including rental yields, financing and ownership costs.
 
+What I found was that earnings caught up with house prices after 2021, which improved the affordability ratios. In some boroughs, falling prices helped too. But that doesn’t mean everyone found buying easier: workplace earnings don’t necessarily represent residents, mortgage costs aren’t included, and 15 areas were still less affordable than in 2015
+
 ## Tools
 
-Python, Jupyter Notebooks, pandas, openpyxl, Matplotlib, Seaborn and GitHub.
+Python, Jupyter Notebooks, pandas, Matplotlib, Seaborn and GitHub.
 
 Created as a Sparta Global data analysis project.
